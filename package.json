@@ -1,0 +1,30 @@
+{
+  "name": "moar-rpc-server",
+  "version": "1.0.6",
+  "description": "A server for RPC over serverless-http",
+  "main": "Server.js",
+  "scripts": {
+    "docs": "jsdoc2md *.js > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farnsworth2008/moar-aws-rpc-server.git"
+  },
+  "keywords": [
+    "AWS",
+    "RPC",
+    "Server"
+  ],
+  "author": "Mark Farnsworth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farnsworth2008/moar-aws-rpc-server/issues"
+  },
+  "homepage": "https://github.com/farnsworth2008/moar-aws-rpc-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "farnsworth-attach": "^1.0.3",
+    "serverless-http": "^1.6.0"
+  }
+}
